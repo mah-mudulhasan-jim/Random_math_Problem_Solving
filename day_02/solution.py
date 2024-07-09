@@ -17,5 +17,5 @@ for i in critical_point:
   if dv2.subs(r, i) < 0:
     max_r = i
 # print(max_r)
-max_v = v.subs(r, max_r)
+max_v = v.subs(r,max_r)
 print(f'Maximum Volume of the cylinder: {int(max_v)} unit^3.')
